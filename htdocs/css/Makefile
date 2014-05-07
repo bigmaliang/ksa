@@ -13,9 +13,8 @@ preload:
 
 b/base.css: index.css
 
-b/paper/add.css: modules/indicator.css paper/mku_skin.css paper/mku_set.css \
-                   modules/noty/jquery.noty.css modules/noty/noty_theme_mitgux.css \
-                   paper/add.css
+b/paper/add.css: modules/indicator.css paper/mku_set.css \
+                 paper/add.css
 
 %.css:
 	$(CSSGLUE) $^ > $@
